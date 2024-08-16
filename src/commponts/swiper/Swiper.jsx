@@ -37,13 +37,12 @@ export default function HeroSwiper() {
       }}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+     
     >
      {
         images.map((v,i)=>{
             return(
-                <SwiperSlide>
+                <SwiperSlide key={i}>
                     <img src={v.img} alt="" />
                 </SwiperSlide>
             )
