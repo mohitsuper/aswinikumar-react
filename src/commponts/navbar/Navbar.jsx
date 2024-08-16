@@ -13,7 +13,7 @@ export default function Navbar() {
   >
     <header className="container flex  rounded-b-lg   items-center justify-between	  mx-auto w-[100%] h-[100%]">
       <div className="logos w-[100%] h-[2rem] flex gap-3 basis-[40%]">
-        <img src="./logo.png" className="width-[100%] h-[100%]" alt="" />
+        <img src="./img/logo.png" className="width-[100%] h-[100%]" alt="" />
         <h1 className="logo text-[1rem]">Aswini Kumar.</h1>
       </div>
       <nav
