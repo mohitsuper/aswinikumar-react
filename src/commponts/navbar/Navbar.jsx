@@ -8,12 +8,12 @@ export default function Navbar() {
   let [search,setsearch] = useState(false)
   return (
     <section
-    className="main  mx-auto  w-[100%] h-[5rem] fixed top-0 bg-white z-10 px-3"
+    className="main  mx-auto  w-[100%] h-[5rem] sticky top-0 bg-white z-10 px-3 border rounded-b-lg border-bottom"
     id="main"
   >
-    <header className="container flex  rounded-b-lg   items-center justify-between	  mx-auto w-[100%] h-[100%]">
+    <header className="container flex     items-center justify-between	  mx-auto w-[100%] h-[100%]">
       <div className="logos w-[100%] h-[2rem] flex gap-3 basis-[40%]">
-        <img src="./img/logo.png" className="width-[100%] h-[100%]" alt="" />
+        <img src="./img/logo.png" className="width-[100%] h-[100%]" alt="h" />
         <h1 className="logo text-[1rem]">Aswini Kumar.</h1>
       </div>
       <nav

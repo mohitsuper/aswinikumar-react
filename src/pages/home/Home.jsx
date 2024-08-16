@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../../commponts/navbar/Navbar'
 import Layout from '../../commponts/layout/Layout'
+import Swiper from '../../commponts/swiper/Swiper'
 export default function Home() {
   return (
     <div>
         <Layout>
-            hello
+            <Swiper/>
         </Layout>
     </div>
   )

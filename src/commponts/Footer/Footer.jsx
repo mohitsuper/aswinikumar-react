@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Footer() {
   return (
-<section className="footer container-2xl mt-[5rem] mx-auto">
-  <footer className="f-main container grid grid-cols-2 gap-4 sm:grid-cols-4 px-4 mx-auto">
+<section className="footer container-2xl mt-[5rem] mx-auto px-4">
+  <footer className="f-main container grid grid-cols-2 gap-4 sm:grid-cols-4  mx-auto">
     <div className="f-col flex flex-col gap-3 mx-auto gap-3 ">
       <div className="log w-[5rem] h-[5rem]">
-        <img src="./img/logo.png" alt="" className="w-[100%]" />
+        <img src="img/logo.png" alt="h" className='w-full h-full border' />
       </div>
       <div className="contect flex flex-col gap-5">
         <h2 className="font-bold text-[1.5rem]">Contect</h2>

@@ -4,10 +4,12 @@ import Footer from '../Footer/Footer'
 
 export default function Layout({children}) {
   return (
-    <div className="h-screen">
-        <Navbar/>
-        {children}
-        <Footer/>
+    <div>
+    <Navbar/>
+    <div className="main-content min-h-screen">
+       {children} 
     </div>
+    <Footer/>
+</div>
   )
 }
