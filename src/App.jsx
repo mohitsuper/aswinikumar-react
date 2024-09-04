@@ -5,12 +5,15 @@ import Error from './pages/nopage/Error'
 function App() {
 
   return (
-   <Router>
+    <div className='overflow-hidden'>
+   <Router id="main">
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path='/*' element={<Error/>}/>
     </Routes>
+     
    </Router>
+    </div>
   )
 }
 

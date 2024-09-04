@@ -25,18 +25,18 @@ let images =[
 ]
 export default function HeroSwiper() {
   return (
-    <div className='p-2'>
+    <div className='p-2  container mx-auto '>
        <Swiper
       modules={[ Pagination, Scrollbar, A11y,Autoplay]}
       spaceBetween={5}
-      slidesPerView={1}
+      slidesPerView={2}
       autoplay={{
         enabled: true,
         delay: 3000,
         disableOnInteraction: true,
       }}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+    //   scrollbar={{ draggable:  }}
      
     >
      {
