@@ -1,0 +1,24 @@
+.category-container {
+    overflow-x: auto;
+    overscroll-behavior: contain;
+  }
+
+  .category-item-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .category-item {
+    height: 100%;
+    animation:  slideInFromLeft 15s linear infinite;
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
