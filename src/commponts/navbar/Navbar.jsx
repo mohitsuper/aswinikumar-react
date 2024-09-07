@@ -21,6 +21,11 @@ export default function Navbar() {
       Name:"AllProducts",
       Link:"/Allproducts"
 
+    },
+
+    {
+      Name:"About",
+      Link:"/About"
     }
   ]
   let NavsingleLink=(indexedDB)=>{

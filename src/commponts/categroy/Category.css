@@ -5,20 +5,26 @@
 
   .category-item-wrapper {
     width: 100%;
+   transition: filter 0.3s ease-in-out;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
+    animation:  slideInFromLeft 15s alternate-reverse infinite;
+    /* background:red; */
   }
   .category-item {
     height: 100%;
-    animation:  slideInFromLeft 15s linear infinite;
+  }
+
+  .text-new{
+    font-size: 2rem;
   }
   
   @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-100%);
+      transform: translateX(100%);
     }
     100% {
-      transform: translateX(100%);
+      transform: translateX(-100%);
     }
   }
   
