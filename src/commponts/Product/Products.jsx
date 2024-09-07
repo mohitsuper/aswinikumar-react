@@ -8,7 +8,7 @@ export default function Products({ProductData}) {
     {
         ProductData.map((v,i)=>{
           return(
-            <div class="border flex flex-col p-1 rounded-[5px] xl:w-[90%] w-full  " key={i}>
+            <div class="border flex flex-col p-1 rounded-[5px] xl:w-[90%] w-full border-[#333] border-1 bg-white  " key={i}>
                 <img src={v.Image} className=' h-[60%]' alt=""/>
                 <div class=" text-[#333] ">
                     <h4 className='font-bold'>{v.Name}</h4>

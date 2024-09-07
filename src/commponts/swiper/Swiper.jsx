@@ -10,22 +10,22 @@ import 'swiper/css/scrollbar';
 
 let images = [
   {
-    img: "img/img1.png"
+    img: "img/hero/img1.png"
   },
   {
-    img: "img/IMG4.jpg"
+    img: "img/hero/IMG4.jpg"
   }, 
   {
-    img: "img/IMG3.jpg"
+    img: "img/hero/IMG3.jpg"
   }, 
   {
-    img: "img/img5.JPG"
+    img: "img/hero/img5.JPG"
   },
 ]
 
 export default function HeroSwiper() {
   return (
-    <div className='p-2  container mx-auto '>
+    <div className='p-2 '>
       <Swiper
         modules={[Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={5}

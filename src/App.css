@@ -2,6 +2,12 @@
     display: none;
 }
 
+body{
+    background-position: cover;
+    background-origin: unset;
+    
+}
+
 .heading{
     font-size: 20px;
     text-align: center;
